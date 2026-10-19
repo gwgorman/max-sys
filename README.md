@@ -16,6 +16,11 @@ ENERGIZE, self-destruct/abort, GPIO buttons, audio priority, or kiosk recovery.
 This project will extract that behavior into a host-neutral library and
 sidecar process for Madame Maxime and future installations.
 
+The first planned hosts are the public
+[Madame Maxime Fortune-Teller Kiosk](https://github.com/gwgorman/madame-maxime-fortune-teller-kiosk)
+and the private Gorman Office Console. Host-specific telemetry, device control,
+and household configuration remain in those projects rather than MAX.sys.
+
 ## Preserved behavior
 
 - Bounded, schema-validated events
